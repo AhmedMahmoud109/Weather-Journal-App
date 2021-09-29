@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.container{
+  
+  padding: 100px;
+  padding-bottom:40px;
+  padding-top: 40px;
+
+}
+
+header{
+    position: fixed;
+    top: 30px;
+    color: rgb(49, 49, 49);
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+#btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 91, 126);
+}
+#btn:hover{
+    background-color: rgb(164, 193, 209);
+}
+
+@media screen and (max-width: 355px) {
+
+    .container{   
+        width: 70px;   
+    }
+    main{
+        position: relative;
+        left: -40px;
+    }
+    header{
+        top: 5px;
+        left: 45px;
+        
+    }
+    
+}
